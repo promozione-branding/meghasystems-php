@@ -10,7 +10,7 @@
 }
 body {
 	font-family: Roboto, sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.46666667;
 	color: black;
 	background-color: #fff;
@@ -3886,8 +3886,6 @@ transform:rotate(359deg)
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	margin: 10px 0 15px;
-	border-color: #ededed;
-	background-color: #fafafa;
 	font-weight: 400
 }
 .navbar-default .navbar-nav>li>a {
@@ -6497,4 +6495,31 @@ p {
 
 .form-control {
     border-radius: 0px!important
+}
+
+h1.styleh1{
+font-size: 33px !important;
+    text-transform: inherit;
+    margin-top: -10px;
+
+}
+@media (max-width: 768px) {
+h1.styleh1{
+    font-size: 23px !important;
+    text-transform: inherit;
+    margin-top: -22px;}
+.header-left {
+	position: relative;
+margin-left:-100px;}
+.header-right {
+	position: relative;
+margin-top:-65px;}
+}
+
+h2.styleh2{
+font-size: 23px !important;
+    text-transform: inherit;
+	font-weight:600;
+    margin-top: 20px;
+
 }
